@@ -1,7 +1,7 @@
 # Market Making Game with Reinforcement Learning
 
 ## Overview
-This project is a **linear market-making simulation** demonstrating optimal bid-ask spread capturing while managing inventory risk. It utilizes **Reinforcement Learning (PPO)** to optimize market-making strategies within a custom OpenAI Gym environment.
+This project is a **linear market-making simulation** demonstrating optimal bid-ask spread capturing while managing inventory risk. It utilizes **Reinforcement Learning (PPO)** to optimize market-making strategies within a Gym environment.
 
 ## Key Features
 - **Custom Gym Environment**: Simulates order book dynamics with bid, ask, and mid-price updates.
@@ -20,11 +20,7 @@ Includes:
 - `numpy`
 - `pygame`
 - `stable-baselines3`
-
-- **Manual Mode**:
-  ```bash
-  python main.py --manual
-  ```
+  
   **Controls:**
   - **LEFT**: Widen spread
   - **DOWN**: Maintain spread
