@@ -8,7 +8,6 @@ This project is a **linear market-making simulation** demonstrating optimal bid-
 - **Reinforcement Learning Agent**: Trained with PPO to maximize profit while controlling inventory risk.
 - **Real-Time Order Book Simulation**: Adjustable spread strategy with execution probability modeling.
 - **Pygame Visualization**: Live order book rendering with bid/ask depth levels.
-- **Manual & Automated Modes**: Control spread manually or let the RL agent optimize it.
 
 ## Installation & Dependencies
 Requires Python 3.8+ and the following dependencies:
